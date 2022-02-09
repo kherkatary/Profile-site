@@ -1,0 +1,84 @@
+body{
+    margin: 0%;
+  
+}
+.other-heading{font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 100px auto 100px auto;
+}
+#heading{    
+    position: absolute;
+            width: 20%;
+            margin-left: 38.5%;
+            margin-top: -42%;
+    text-align: center;
+   
+}
+#heading h1{
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    margin-bottom: 7%;
+}
+#bio1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+#profile-pic{ display: flex;
+justify-content: center;}
+#profile-pic img{
+    
+
+    width: 13%;
+}
+#bio2{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+hr{
+    border: 5px solid rgb(162, 162, 162);
+    border-style: dotted;
+    border-bottom: white;
+    height: 0;
+    margin-top: 8%;
+    width: 10%;
+    
+    
+}
+.skill-1{
+    font-family: 'Montserrat', sans-serif;
+    
+    line-height: 2;
+    margin: auto;
+    margin-bottom: 4%;
+    width: 50%;
+}
+.skill-1 img{ float: left;
+    margin-right:3%;
+    width:23%;
+
+}
+.skill-2{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    margin: auto;
+    width: 49%;
+}
+
+.skill-2 img{ float: right;
+    margin-left:3%;
+    width: 33%;
+
+}
+#social{
+   width: 300px;
+   margin: auto;
+   text-align: center;
+} 
+#FB{width: 12.9%;
+margin-left: 10%;
+margin-right: 10%;}
+#insta{width: 13.1%;}
+#linkedin{ width: 13%;}
+
