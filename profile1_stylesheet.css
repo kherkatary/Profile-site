@@ -8,8 +8,8 @@ body{
 }
 #heading{    
     position: absolute;
-            width: 20%;
-            margin-left: 38.5%;
+            width: 30%;
+            margin-left: 36.5%;
             margin-top: -42%;
     text-align: center;
    
@@ -71,14 +71,90 @@ hr{
     width: 33%;
 
 }
-#social{
-   width: 300px;
-   margin: auto;
+#MyProjects{
+    margin: auto;
+    text-align: center;
+}
+
+.projects{
+    list-style: circle;
+    padding: 10px;
+
+    
+}
+.projects a{
+    font-family: montserrat;
+    text-decoration: none;
+}
+#social{width: 10%;
+    position: fixed;
    text-align: center;
+   margin-top: 10px;
+  
 } 
+#social li{
+    list-style: none;
+    padding: 2px;
+    
+    margin-left: -50%;
+    
+}
 #FB{width: 12.9%;
-margin-left: 10%;
-margin-right: 10%;}
+margin-top: 2px;
+margin-bottom: 2px;}
 #insta{width: 13.1%;}
 #linkedin{ width: 13%;}
 
+/* media queries */
+
+@media(max-width:450px){
+    #heading h1{
+        font-family: 'Caveat', cursive;
+        font-size: 100%;
+        margin-bottom: 7%;
+        width: 100%;
+    }
+    #bio1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.5rem;
+    }
+    #bio2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.6rem;
+        margin: auto;
+        text-align: center;
+        width: 90%;
+    }
+    .other-heading{font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        margin: 10% auto 10% auto;
+    }
+    .skill-1{
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 0.6rem;
+        line-height: 2;
+        margin: auto;
+        margin-bottom: 15%;
+        width: 70%;
+    }
+    .skill-1 h2{
+        font-size: 0.7rem;
+    }
+    .skill-2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.6rem;
+        line-height: 2;
+        margin: auto;
+        margin-bottom: 15%;
+        text-align: right;
+        width: 70%;
+    }
+    .skill-2 h2{
+        font-size: 0.7rem;
+    }
+    .projects a{
+        font-size: 0.6rem;
+    }
+
+}
