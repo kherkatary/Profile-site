@@ -65,7 +65,10 @@ hr{
     margin: auto;
     width: 49%;
 }
+.skill-2 h2{    margin-top: 22%;
+    text-align: right;
 
+}
 .skill-2 img{ float: right;
     margin-left:3%;
     width: 33%;
@@ -89,7 +92,7 @@ hr{
 #social{width: 10%;
     position: fixed;
    text-align: center;
-   margin-top: 10px;
+   margin-top: 40%;
   
 } 
 #social li{
@@ -104,6 +107,27 @@ margin-top: 2px;
 margin-bottom: 2px;}
 #insta{width: 13.1%;}
 #linkedin{ width: 13%;}
+
+footer{
+    background-image: url(868844.jpg); 
+    background-position-y: 59%;
+    background-position-x: 99%;
+    font-family: montserrat;
+    height: 8rem;
+    list-style-type: none;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+   
+    
+}
+footer p{
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+}
+
 
 /* media queries */
 
@@ -125,6 +149,14 @@ margin-bottom: 2px;}
         text-align: center;
         width: 90%;
     }
+    #social{width: 10%;
+       margin-top: 54%;
+      
+    } 
+    #insta{width: 30.1%;}
+    #linkedin{ width: 30%;}
+    #FB{width: 29.9%;}
+
     .other-heading{font-family: 'Montserrat', sans-serif;
         font-size: 1rem;
         text-align: center;
@@ -155,6 +187,13 @@ margin-bottom: 2px;}
     }
     .projects a{
         font-size: 0.6rem;
+    }
+
+    footer{
+        background-position-x: 73%;
+        font-size: 0.6rem;
+        height: 5rem;      
+        padding: 20px;  
     }
 
 }
